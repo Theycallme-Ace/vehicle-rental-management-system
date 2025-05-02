@@ -79,7 +79,7 @@ INSERT OR IGNORE INTO facilities (name, icon, description) VALUES
 
 -- Insert default superadmin user (password: admin123)
 INSERT OR IGNORE INTO users (username, email, password, role, full_name) VALUES
-('superadmin', 'admin@rentalbis.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'superadmin', 'System Administrator');
+('superadmin', 'admin@rentalbis.com', '$2y$10$e0NRXq6q6q6q6q6q6q6q6u6q6q6q6q6q6q6q6q6q6q6q6q6q6q6q6', 'superadmin', 'System Administrator');
 
 -- Create indexes for better performance
 CREATE INDEX IF NOT EXISTS idx_vehicles_type ON vehicles(vehicle_type);
